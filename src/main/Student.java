@@ -2,7 +2,7 @@ package main;
 
 import java.util.*;
 
-public class Student implements Comparable<Student> {
+public class Student {
     private static int count = 0;
     private String name; //Mike
     private int age; //23
@@ -61,11 +61,6 @@ public class Student implements Comparable<Student> {
     @Override
     public int hashCode() {
         return Objects.hash(name, age, email, phoneNumber);
-    }
-
-    @Override
-    public int compareTo(Student o) {
-        return getName().compareTo(o.getName());
     }
 
     public static void printInformationAboutStudents() {
