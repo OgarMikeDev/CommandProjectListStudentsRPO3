@@ -69,7 +69,7 @@ public class Student implements Comparable<Student> {
     }
 
     public static void printInformationAboutStudents() {
-        //Evgenii
+        //Evgeniy
     }
 
     public static void removeStudent(long phoneNumber) {
